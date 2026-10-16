@@ -1,0 +1,17 @@
+{
+  "name": "mf-vite-dependent-resolution-repro",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@module-federation/enhanced": "2.9.2",
+    "@module-federation/vite": "1.23.5",
+    "vite": "8.2.2",
+    "@babel/core": "7.29.7",
+    "@rspack/core": "2.2.9",
+    "webpack": "5.109.2"
+  }
+}
